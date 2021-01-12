@@ -11,9 +11,11 @@ and pdf documents to word files.
 
 ## How to Download
 
-Download this project from here [Download Word 2 PDF](https://downgit.github.io/#/home?url=https://github.com/pyGuru123/Tkinter-Applications/tree/master/Instagram%20Batch%20post%20downloader)
+Download this project from here [Download Word 2 PDF](https://downgit.github.io/#/home?url=https://github.com/pyGuru123/File-Converters/tree/main/Word2PDF)
 
 ## Requirements
+
+The Application works for windows and supposes you have microsoft office ( >2007 ) installed. \
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install following packages :-
 * pywin32
