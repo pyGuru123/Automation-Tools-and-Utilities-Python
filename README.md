@@ -11,3 +11,7 @@ All the applications are listed here
 * ## Word 2 PDF
 	> A simple app to convert word to pdf and pdf to word.
 	> Link to project : [Word 2 PDF](https://github.com/pyGuru123/Python-Tools-and-File-Converters/tree/main/Word2PDF)
+
+* ## Folder Locker & Hider
+	> A simple app to lock folders with passwords and hide.
+	> Link to project : [Folder Locker & Hider](https://github.com/pyGuru123/Python-Tools-and-File-Converters/tree/main/Folder%20Locker%20%26%20Hider)
