@@ -15,3 +15,6 @@ All the applications are listed here
 * ## Folder Locker & Hider
 	> A simple app to lock folders with passwords and hide.
 	> Link to project : [Folder Locker & Hider](https://github.com/pyGuru123/Python-Tools-and-File-Converters/tree/main/Folder%20Locker%20%26%20Hider)
+	
+	
+<h4 align="center"> Show ❤️ By Starring this <img align='center'  height="22" src="https://img.shields.io/badge/Repo!%F0%9F%98%8A-purple.svg?&style=for-the-badge&logoColor=green" /></h4>
