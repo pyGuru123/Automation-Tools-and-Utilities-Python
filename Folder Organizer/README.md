@@ -10,7 +10,7 @@ Folder Organizer is a simple python tkinter based application to organize and cl
 
 ## How to Download
 
-Download this project from here [Download Folder Locker & Hider](https://downgit.github.io/#/home?url=https://github.com/pyGuru123/Automation-Tools-and-Utilities-Python/tree/main/Folder%20Organizer)
+Download this project from here [Folder Organizer](https://downgit.github.io/#/home?url=https://github.com/pyGuru123/Automation-Tools-and-Utilities-Python/tree/main/Folder%20Organizer)
 
 ## Requirements
 
@@ -25,7 +25,7 @@ Double click the application.py script to open the GUI application, then select 
 4. Move files : move all the files to selected destination based on passed file extension
 5. Delete files : Deletes all the files based on passed file extension
 
-!Warning : Delete feature is permanent, your files will not go to recycle bin, hence cannot be recoverd. Use this feature carefully.
+### !Warning : Delete feature is permanent, your files will not go to recycle bin, hence cannot be recoverd. Use this feature carefully.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
