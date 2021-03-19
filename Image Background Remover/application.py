@@ -1,6 +1,9 @@
 import os
 import tkinter as tk
 import tkinter.ttk as ttk
+from tkinter import filedialog
+
+from remover import BackgroundRemover
 
 cwd = os.getcwd()
 
@@ -10,7 +13,7 @@ class Application(tk.Frame):
 		self.master = master
 		self.grid()
 
-		self.BGRemover = 'not created yet'
+		self.BGRemover = BackgroundRemover()
 
 		self.draw_frames()
 		self.draw_widgets()
@@ -35,10 +38,12 @@ class Application(tk.Frame):
 		self.bcanvas = tk.Canvas(self.bframe, width=450, height=250, bg='#252525')
 		self.bcanvas.grid(row=0, column=0)
 
-		self.load_btn = ttk.Button(self.rframe, text='Load Image', width=20)
+		self.load_btn = ttk.Button(self.rframe, text='Load Image', width=20, 
+						command=self.load_image)
 		self.load_btn.grid(row=0, column=0, pady=(20,0), padx=10)
 
-		self.rb_btn = ttk.Button(self.rframe, text='Remove background', width=20)
+		self.rb_btn = ttk.Button(self.rframe, text='Remove background', width=20,
+						command=self.remove_bg)
 		self.rb_btn.grid(row=1, column=0, pady=(20,0), padx=10)
 
 		self.save_btn = ttk.Button(self.rframe, text='Save Image', width=20)
@@ -48,9 +53,12 @@ class Application(tk.Frame):
 		filepath = filedialog.askopenfilename(initialdir = cwd)
 		if filepath:
 			self.filepath = filepath
-			# self.canvas.create_image(0,0, anchor=tk.NW, image=self.image)    
-			# self.canvas.image = self.image 
-			# self.update()
+			self.image = self.BGRemover.load_image(filepath, (450,250))
+			self.ucanvas.create_image(0,0, anchor=tk.NW, image=self.image)
+			self.update()
+
+	def remove_bg(self):
+		pass
 
 
 
